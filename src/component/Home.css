@@ -1,0 +1,40 @@
+@keyframes wave {
+    0%, 100% {
+      transform: translateY(0);
+      background-color: transparent;
+    }
+    25% {
+      transform: translateY(-2px);
+      /* background-color: red; Change to your desired color */
+    }
+    50% {
+      transform: translateY(0);
+      background-color: transparent;
+    }
+    75% {
+      transform: translateY(2px);
+      /* background-color: green; Change to your desired color */
+    }
+  }
+  
+  .wave {
+    animation: wave 2s infinite;
+  }
+  
+
+
+
+  @media only screen and (max-width: 600px) {
+    .text-4xl {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+  
+    .text-lg {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  
+    /* Adjust other styles as needed for smaller screens */
+  }
+
+
+  

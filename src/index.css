@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    padding:0;
+    margin:0;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--primary);
+
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 100px;
+    border: 2px solid var(--primary);
+}
+
+:root {
+    --primary: #F1F5F9;
+    --secondary: #a99f16;
+}
+
+@layer {
+    #root{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+

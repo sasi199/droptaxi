@@ -1,0 +1,27 @@
+/* Define the keyframes for the plinking effect */
+@keyframes plink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the plinking effect on hover */
+.waving-button {
+  animation: plink 0.5s ease-in-out infinite;
+}
+
+
+/* CSS */
+.mobile-button {
+  margin-bottom: 20px; /* Adjust the value to add the desired space at the bottom */
+}
+
+.Nav.open {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
